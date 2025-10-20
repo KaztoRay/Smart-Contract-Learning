@@ -11,7 +11,7 @@ contract ValueTypes {
     uint8 public u8 = 1;
     uint256 public u256 = 123;
     uint public u = 456;
-    int8 public 18 = -1
+    int8 public i8 = -1;
 
     // minimum and maximum of int
     int256 public minInt = type(int).min;
