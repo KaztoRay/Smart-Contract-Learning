@@ -20,7 +20,7 @@ contract OnlyOwnerContract {
 
     }
 
-    function callme onlyOwner external view returns (string memory) {
+    function callme() onlyOwner external view returns (string memory) {
 
         return "Hi, admin!";
 
